@@ -479,7 +479,7 @@ section.quote .description{
     line-height: 36px;
     color: #999;
 }
-section.quote .title{
+section.quote .sub_title{
     display: block;
     position: relative;
     font-size: 24px;
@@ -487,7 +487,7 @@ section.quote .title{
     font-family: Kaushan Script;
     color: #333;
 }
-section.quote .title:before{
+section.quote .sub_title:before{
     content: "";
     display: inline-block;
     width: 60px;
