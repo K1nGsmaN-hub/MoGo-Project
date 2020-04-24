@@ -379,3 +379,141 @@ section.feature .device_iPhone{
     right: 230px;
     top: 200px;
 }
+section.service .description{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+}
+section.service .content__info{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+}
+section.service .accordion__item{
+    border: 1px solid #e5e5e5;
+    min-width: 600px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+section.service .accordion__title{
+    display: flex;
+    position: relative;
+    align-items: center;
+}section.service .accordion__title:after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    right: 20px;
+    top: 25px;
+    transform: rotate(-45deg);
+}
+section.service .accordion__item.active .accordion__title:after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    right: 20px;
+    top: 15px;
+    transform: rotate(135deg);
+}
+section.service .accordion__title i{
+    font-size: 30px;
+    color: #95e1d3;
+    margin: 15px;
+}
+section.service .accordion__title h5{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    color: #444;
+    text-transform: uppercase;
+}
+section.service .accordion__item.active p{
+    display: block;
+}
+section.service .accordion__description p{
+    display: none;
+    overflow: auto;
+    height: 132px;
+    border-top: 1px solid #e5e5e5;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999;
+    padding: 20px;
+}
+section.quote .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    margin: 190px auto 70px;
+}
+section.quote .content__text{
+    position: relative;
+}
+section.quote .content__text:after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    right: -75px;
+    top: 55px;
+    transform: rotate(45deg);
+}
+section.quote .description{
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 36px;
+    color: #999;
+}
+section.quote .title{
+    display: block;
+    position: relative;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Kaushan Script;
+    color: #333;
+}
+section.quote .title:before{
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-bottom: 4px;
+    margin-right: 10px;
+}
+section.quote .content__image{
+    position: relative;
+    border: 3px solid #95e1d3;
+    margin-right: 60px;
+}
+section.quote .content__image:before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid #ccc;
+    border-right: 3px solid #ccc;
+    left: -75px;
+    top: 65px;
+    transform: rotate(225deg);
+}
+section.quote .content__image i{
+    font-size: 60px;
+    color: #95e1d3;
+    margin: 40px;
+}
