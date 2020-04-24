@@ -12,7 +12,9 @@ Added:
 
 #
 ## Apr24 2020 - Mogo version 0.6-0.7
+
 Version 0.6:
 * section "service" with "Accordion text"
+
 Version 0.7:
 * section "qoute" with idle button
