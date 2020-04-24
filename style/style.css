@@ -472,7 +472,7 @@ section.quote .content__text:after{
     top: 55px;
     transform: rotate(45deg);
 }
-section.quote .description{
+section.quote .text_description{
     font-family: Roboto;
     font-style: italic;
     font-size: 24px;
