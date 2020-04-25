@@ -631,3 +631,99 @@ section.our-team .item__text p{
     line-height: 24px;
     color: #999;
 }
+section.logos .content{
+    margin: 50px auto;
+    opacity: 0.8;
+}
+section.work .content{
+    margin: 110px auto 100px;
+}
+section.work .content__text{
+    text-align: center;
+}
+section.work .suptitle{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Kaushan Script;
+    color: #333;
+    margin-bottom: 20px;  
+} 
+section.work .title{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #333;
+    text-transform: uppercase;
+}
+section.work .title:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 40px auto 40px;
+}
+section.work .description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Roboto;
+    color: #999;
+    margin-bottom: 100px;
+}
+section.work .works{
+    width: 100%;
+    display: flex;
+}
+section.work .works_column{
+    flex: 1 1 0;
+}
+section.work .works__item{
+    position: relative;
+}
+section.work .works__item .item__info{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translate3d(0, -50%, 0);
+    opacity: 0;
+}
+section.work .works__item .item__info h5{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+section.work .works__item .item__info p{
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+section.work .works__item .item__info i{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+section.work .item__image{
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+    transition: transform .2s linear;
+}
+section.work .item__image img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity .2s linear;
+}
+section.work .works__item:hover .item__image img{
+    opacity: 0.1;
+}
+section.work .works__item:hover .item__info{
+    opacity: 1;
+}

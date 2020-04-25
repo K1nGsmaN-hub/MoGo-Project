@@ -27,3 +27,10 @@
 * section "our-team" with:
  1. hover'n teammates images
  2. idle social-links
+
+#
+## Apr25 2020 - Mogo version 0.9
+
+#### Version 0.9 Added:
+* section "logos"
+* section "work" 
