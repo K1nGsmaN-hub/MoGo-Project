@@ -44,7 +44,7 @@
 * section "blog" 
 
 #
-## Apr27 2020 - Mogo version 1.0 !!!!
+## Apr27 2020 - Mogo version 1.0
 
 #### html/css - complete.
 #
