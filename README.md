@@ -12,16 +12,14 @@
 * section "devices"
 
 #
-## Apr24 2020 - Mogo version 0.6-0.7
+## Apr24 2020 - Mogo version 0.6
 
 #### Version 0.6 Added:
 * section "service" with "Accordion text"
-
-#### Version 0.7 Added:
 * section "qoute" with idle buttons
 
 #
-## Apr25 2020 - Mogo version 0.8
+## Apr25 2020 - Mogo version 0.7
 
 #### Version 0.8 Added:
 * section "our-team" with:
@@ -29,8 +27,18 @@
  2. idle social-links
 
 #
-## Apr25 2020 - Mogo version 0.9
+## Apr25 2020 - Mogo version 0.8
 
 #### Version 0.9 Added:
 * section "logos"
 * section "work" 
+
+#
+## Apr26 2020 - Mogo version 0.9
+
+#### 90% of the project is done.
+#
+#### Version 0.9 Added:
+* section "quote-2"
+* section "reviews"
+* section "blog" 
