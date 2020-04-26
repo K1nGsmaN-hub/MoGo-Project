@@ -42,3 +42,16 @@
 * section "quote-2"
 * section "reviews"
 * section "blog" 
+
+#
+## Apr27 2020 - Mogo version 1.0 !!!!
+
+#### html/css - complete.
+#
+#### Version 1.0 Added:
+* section "map" - idle
+* section "footer" (all links is idle)
+* section "creators" 
+
+#
+## JS coming soon...

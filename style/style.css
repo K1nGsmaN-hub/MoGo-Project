@@ -921,3 +921,220 @@ section.blog .blog__item .item__indicators span{
     vertical-align: middle;
     margin: 0 20px 0 7px;
 }
+section.map{
+    background: url(../img/map/map.png) no-repeat center;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+section.map .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+section.map .content i{
+    font-size: 26px;
+    color: #f38181;
+    margin-top: 57px;
+}
+section.map .content h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #f38181;
+}
+section.map .content h4:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 20px auto 57px;
+}
+footer .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+footer .content_column-first{
+    width: 40%;
+}
+footer .content_column-second{
+    width: 29%;
+}
+footer .content_column-third{
+    width: 23%;
+}
+footer .content__info .logo{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 46px;
+    color: #ccc;
+    margin-top: 74px;
+    margin-bottom: 40px;
+}
+footer .content__info .description{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #999;
+    margin-bottom: 50px;
+}
+footer .content__info .followers-counter{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+footer .content__info .followers-counter span{
+    font-weight: 700;
+    font-size: 18px;
+}
+footer .content__info .followers-counter:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 18px auto;
+}
+footer .content__info .info__social-links {
+    margin-bottom: 40px;
+}
+footer .content__info .info__social-links span{
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #999;
+    margin-right: 23px;
+}
+footer .content__info .info__social-links i{
+    font-size: 16px;
+    color: #95e1d3;
+    margin-right: 15px  ;
+}
+footer .content__info .subscribe input[type='text']{
+    border: 1px solid #95e1d3;
+    padding: 10px 14px;
+    margin-right: 0px;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+}
+footer .content__info .subscribe input[type='submit']{
+    border: 1px solid #95e1d3;
+    background-color: #95e1d3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 34px;
+    margin-left: -4px;
+}
+footer .blogs h4.title{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    text-transform: uppercase;
+    margin-top: 103px;
+    margin-bottom: 50px;
+}
+footer .blogs .blogs__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 31px;
+}
+footer .blogs .blogs__item .item__image{
+    margin-right: 20px;
+}
+footer .blogs .blogs__item .item__image img{
+    cursor: pointer;
+}
+footer .blogs .blogs__item .item__text h5.title{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #444;
+}
+footer .blogs .blogs__item .item__text p.date{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+}
+footer .instagram h4.title{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+    text-transform: uppercase;
+    margin-top: 103px;
+    margin-bottom: 50px;
+}
+footer .instagram .instagram__images{
+    margin-bottom: 12px;
+}
+footer .instagram .instagram__images img{
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+footer .instagram p.subtitle{
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+}
+footer hr{
+    border: 0;
+    width: 100%;
+    height: 1px;
+    margin-top: 70px;
+    margin-bottom: 24px;
+    background-color: #e5e5e5;
+}
+footer .footer__text{
+    text-align: center;
+    margin-bottom: 22px;
+}
+footer .footer__text i{
+    font-size: 14px;
+}
+footer .footer__text p.desiner{
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+footer .footer__text p.desiner span{
+    color: #f38181;
+}
+footer .footer__text p.coder{
+    display: block;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+footer .footer__text p.coder span{
+    color: #f38181;
+}
